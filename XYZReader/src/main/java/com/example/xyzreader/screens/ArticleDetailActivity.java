@@ -1,4 +1,4 @@
-package com.example.xyzreader.ui;
+package com.example.xyzreader.screens;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
