@@ -72,7 +72,7 @@ public class ArticleDetailFragment extends Fragment implements
     private GregorianCalendar START_OF_EPOCH = new GregorianCalendar(2, 1, 1);
     private String allBodyString;
     private int bodyStart = 0;
-    private int bodyEnd = 2000;
+    private int bodyEnd = 1000;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
