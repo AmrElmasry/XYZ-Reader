@@ -275,6 +275,11 @@ public class ArticleDetailFragment extends Fragment implements
     }
 
     private void showNextPartOfBody() {
+        int fullLength = allBodyString.length();
+        if (bodyStart > fullLength)
+            return;
+        if (bodyEnd > fullLength)
+            bodyEnd = fullLength;
         StringBuilder subBody = new StringBuilder(allBodyString.substring(bodyStart, bodyEnd));
         bodyView.append(subBody);
         bodyStart = bodyEnd;
