@@ -205,6 +205,7 @@ public class ArticleDetailFragment extends Fragment implements
         }
     }
 
+    @SuppressWarnings("deprecation")
     private void bindViews() {
         if (mRootView == null) {
             return;
